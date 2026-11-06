@@ -209,3 +209,7 @@ input[type="text"]:focus, textarea:focus { outline: none; border-color: var(--ch
   *, *::before, *::after { animation: none !important; transition: none !important; }
   html { scroll-behavior: auto; }
 }
+
+.sello-nombre { margin: 18px 0 0; text-align: center; font-family: var(--titulo); font-size: clamp(36px, 4vw, 52px); line-height: 1; text-transform: uppercase; }
+.sello-nombre small { display: block; margin-bottom: 6px; font-family: var(--cuerpo); font-size: 13px; font-weight: 700; letter-spacing: 4px; color: var(--chispa); }
+@media (max-width: 860px) { .sello-nombre { display: none; } }

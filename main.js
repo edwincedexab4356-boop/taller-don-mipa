@@ -52,7 +52,7 @@ actualizar();
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     const sello = hero.querySelector(".hero-sello");
     const r = sello.getBoundingClientRect(), rh = hero.getBoundingClientRect();
-    origen = { x: r.left - rh.left + r.width * 0.55, y: r.top - rh.top + r.height * 0.5 };
+    origen = { x: r.left - rh.left + r.width * 0.55, y: r.top - rh.top + r.width * 0.5 };
   }
 
   function soltar(n) {
